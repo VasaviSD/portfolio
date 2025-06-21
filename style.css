@@ -91,7 +91,7 @@ nav ul li a:hover {
 }
 
 main {
-    padding: 6rem 2rem 2rem;
+    padding: 0rem 1.5rem 1.5rem;
 }
 
 html {
@@ -728,7 +728,6 @@ footer p {
 
 .hero-resume-button {
     display: inline-block;
-    margin-top: 2.5rem;
     padding: 0.6rem 1.5rem;
     border: 2px solid #bb86fc;
     color: #e0e0e0;
@@ -751,7 +750,7 @@ footer p {
 
 .experience-timeline {
     position: relative;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 2rem auto;
 }
 
@@ -779,7 +778,7 @@ footer p {
 .timeline-left {
     width: 20%;
     padding-right: 50px;
-    text-align: right;
+    text-align: center;
     flex-shrink: 0;
 }
 
