@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasavi Doddamani - Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Exo+2:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50' y='50' font-size='80' text-anchor='middle' dy='.35em' fill='%23bb86fc' font-family='Exo 2, sans-serif' font-weight='bold'>V</text></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+                <div class="hero-title-wrapper">
+                    <span class="intro-text">Hi, I'm</span>
+                    <h1 class="main-title">Vasavi Doddamani</h1>
+                </div>
+                <p class="job-title">A Software Engineer</p>
+                <div class="subtitle-container">
+                    <p class="subtitle-line"><i class="fas fa-laptop-code subtitle-icon"></i>I turn complex problems into elegant solutions.</p>
+                    <p class="subtitle-line"><i class="fas fa-rocket subtitle-icon"></i>Let's build something amazing together.</p>
+                </div>
+                <!-- <div class="social-links">
+                    <a href="https://www.linkedin.com/in/vasavi-doddamani" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/VasaviSD" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:vdoddama@ucsc.edu"><i class="fas fa-envelope"></i></a>
+                </div> -->
+                <a href="resume.pdf" target="_blank" class="hero-resume-button">Resume <i class="fas fa-cloud-arrow-down"></i></a>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-graphic.png" alt="Illustration of a software engineer at work with servers">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about-me-graphic.png" alt="Illustration of a software engineer at her desk with code and algorithm icons in the background.">
+                </div>
+                <div class="about-text">
+                    <p>
+                        I'm a Software Engineer with a passion for building scalable backend systems and intelligent, data-driven applications. With experience in cloud platforms, distributed systems, and performance optimization, I've built impactful solutions ranging from automating infrastructure and managing large-scale networks to enhancing processor simulations and developing AI-powered tools. Currently, I'm pursuing my Master's in Computer Science at UC Santa Cruz, where I'm deepening my knowledge in systems, AI, and architecture design. I strive to create solutions that are not only technically sound but also meaningful and user-focused.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <div class="timeline-icon">
+                            <span>ESS</span>
+                        </div>
+                        <p class="timeline-date">Oct 2022 – June 2024</p>
+                    </div>
+                    <div class="timeline-right">
+                        <div class="timeline-content">
+                            <h3>Senior Software Engineer</h3>
+                            <p class="company">Eastern Software Systems</p>
+                            <ul>
+                                <li>Implemented Azure functions to manage and enforce uniform tagging rules on over 10,000 company-wide Azure resources, using GraphQL APIs.</li>
+                                <li>Developed an IP distribution system using Terraform and AWS IPAM Pool, allocating IP blocks and CIDRs across thousands of virtual networks on AWS & Azure.</li>
+                                <li>Created standard and customized configurations via APIs for F5 network devices, with a user-friendly UI using HTML, CSS, and JavaScript that improved user interaction by 40%.</li>
+                                <li>Automated Change Request creation using ServiceNow APIs.</li>
+                                <li>Designed and implemented solutions for commissioning and decommissioning 1000+ network devices, integrating with monitoring tools like Sevone and Netbrain.</li>
+                                <li>Developed automated Python scripts to write data to Excel for configuration pushes and result comparisons.</li>
+                                <li>Mentored new team members.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-left">
+                        <div class="timeline-icon">
+                            <span>TR</span>
+                        </div>
+                        <p class="timeline-date">May 2021 – Oct 2022</p>
+                    </div>
+                    <div class="timeline-right">
+                        <div class="timeline-content">
+                            <h3>Software Engineer</h3>
+                            <p class="company">Thomson Reuters</p>
+                            <ul>
+                                <li>Developed Backend REST APIs and Lambda functions using AWS services for normalizing PDFs in the law domain, reducing processing time by 30%.</li>
+                                <li>Created comprehensive test suites (unit, integration, pre, & post-hooks) using the Pytest framework.</li>
+                                <li>Refactored environment variables for AWS Lambda functions to overcome storage limitations and increase configuration flexibility.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <a href="https://github.com/VasaviSD/profiling-agent" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3>AI-Powered Code Optimization</h3>
+                        <p>Implemented an AI agent to identify performance issues and automatically generate and test optimized C++ code.</p>
+                        <div class="project-tech">
+                            <i class="devicon-python-plain" title="Python"></i>
+                            <i class="fas fa-robot" title="AI Agent"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/VasaviSD/nsb" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3>Network Simulator Bridge</h3>
+                        <p>Created a low-overhead pipeline to bridge distributed applications and network simulators like ns-3 and omnet++.</p>
+                        <div class="project-tech">
+                             <i class="fas fa-project-diagram" title="Network Simulation"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/VasaviSD/scarab" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3>Cache Miss Analysis & Optimization</h3>
+                        <p>Optimized cache performance by implementing a multi-threaded 3C cache miss analysis module to improve system performance.</p>
+                        <div class="project-tech">
+                            <i class="devicon-cplusplus-plain" title="C++"></i>
+                            <i class="fas fa-cogs" title="Multi-threading"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/VasaviSD/scarab" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3>Branch Prediction Enhancements</h3>
+                        <p>Designed a two-level branch predictor in Scarab to optimize prediction accuracy in multi-core processor simulations.</p>
+                        <div class="project-tech">
+                            <i class="devicon-c-plain" title="C"></i>
+                            <i class="devicon-cplusplus-plain" title="C++"></i>
+                        </div>
+                    </div>
+                </a>
+                 <a href="#" target="_blank" class="project-card">
+                    <div class="project-content">
+                        <h3>Social Media Data Ingestion</h3>
+                        <p>Contributed to a data lake project, using Python to scrape and store unstructured social media data in Hadoop with Spark.</p>
+                        <div class="project-tech">
+                            <i class="devicon-python-plain" title="Python"></i>
+                            <i class="devicon-apachespark-original" title="Spark"></i>
+                             <i class="devicon-hadoop-plain" title="Hadoop"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages & Databases</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item"><i class="devicon-python-plain-wordmark colored"></i><span>Python</span></div>
+                        <div class="skill-item"><i class="devicon-java-plain-wordmark colored"></i><span>Java</span></div>
+                        <div class="skill-item"><i class="devicon-cplusplus-plain-wordmark colored"></i><span>C++</span></div>
+                        <div class="skill-item"><i class="devicon-c-plain-wordmark colored"></i><span>C</span></div>
+                        <div class="skill-item"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+                        <div class="skill-item"><i class="fas fa-database colored"></i><span>SQL</span></div>
+                        <div class="skill-item"><i class="devicon-postgresql-plain-wordmark colored"></i><span>PostgreSQL</span></div>
+                        <div class="skill-item"><i class="devicon-mysql-plain-wordmark colored"></i><span>MySQL</span></div>
+                        <div class="skill-item"><i class="devicon-redis-plain-wordmark colored"></i><span>Redis</span></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & Cloud</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item"><i class="devicon-amazonwebservices-original colored"></i><span>AWS</span></div>
+                        <div class="skill-item"><i class="devicon-azure-plain-wordmark colored"></i><span>Azure</span></div>
+                        <div class="skill-item"><i class="devicon-docker-plain-wordmark colored"></i><span>Docker</span></div>
+                        <div class="skill-item"><i class="devicon-kubernetes-plain-wordmark colored"></i><span>Kubernetes</span></div>
+                        <div class="skill-item"><i class="devicon-flask-original-wordmark colored"></i><span>Flask</span></div>
+                        <div class="skill-item"><i class="devicon-django-plain-wordmark colored"></i><span>Django</span></div>
+                         <div class="skill-item"><i class="devicon-graphql-plain-wordmark colored"></i><span>GraphQL</span></div>
+                        <div class="skill-item"><i class="devicon-apachekafka-original-wordmark colored"></i><span>Kafka</span></div>
+                        <div class="skill-item"><i class="fas fa-server colored"></i><span>Microservices</span></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item"><i class="devicon-html5-plain-wordmark colored"></i><span>HTML</span></div>
+                        <div class="skill-item"><i class="devicon-css3-plain-wordmark colored"></i><span>CSS</span></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Practices</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item"><i class="devicon-git-plain-wordmark colored"></i><span>Git</span></div>
+                        <div class="skill-item"><i class="devicon-linux-plain colored"></i><span>Linux</span></div>
+                        <div class="skill-item"><i class="devicon-pytest-plain-wordmark colored"></i><span>Pytest</span></div>
+                        <div class="skill-item"><i class="fas fa-vial colored"></i><span>Unit Testing</span></div>
+                        <div class="skill-item"><i class="devicon-jenkins-line colored"></i><span>Jenkins</span></div>
+                        <div class="skill-item"><i class="fas fa-sync-alt colored"></i><span>Agile/Scrum</span></div>
+                        <div class="skill-item"><i class="fas fa-cogs colored"></i><span>CI/CD</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="contact-title">
+                <span class="background-text">Get In Touch</span>
+                <span class="foreground-text">Get In Touch</span>
+            </h2>
+            <p>I'm currently open to new opportunities and collaborations. Whether you have a project in mind, a question, or just want to say hi, my inbox is always open. I'll try my best to get back to you!</p>
+            <form id="contact-form" action="https://formspree.io/f/mvgrbvpp" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="say-hello-button">Send Message</button>
+            </form>
+            <div class="contact-social-links">
+                 <a href="https://www.linkedin.com/in/vasavi-doddamani" target="_blank"><i class="fab fa-linkedin"></i></a>
+                 <a href="https://github.com/VasaviSD" target="_blank"><i class="fab fa-github"></i></a>
+                 <a href="mailto:vdoddama@ucsc.edu"><i class="fas fa-envelope"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vasavi Doddamani. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
