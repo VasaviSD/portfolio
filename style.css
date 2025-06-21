@@ -460,10 +460,28 @@ h3 {
 .skill-item .devicon-pytest-plain-wordmark.colored {
     color: #0A9B7B;
 }
+.skill-item .devicon-typescript-plain.colored {
+    color: #3178C6;
+}
+.skill-item .devicon-cassandra-plain.colored {
+    color: #1397C5;
+}
+.skill-item .devicon-php-plain.colored {
+    color: #777BB4;
+}
+.skill-item .devicon-terraform-plain.colored {
+    color: #7B42BC;
+}
+.skill-item .devicon-android-plain.colored {
+    color: #A4C639;
+}
+.skill-item .devicon-apachespark-original.colored {
+    color: #E25A1C;
+}
 
 #contact {
     text-align: center;
-    border-bottom: none;
+    position: relative;
 }
 
 #contact h2 {
