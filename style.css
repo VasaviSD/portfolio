@@ -206,6 +206,30 @@ section.visible {
     flex: 1.5;
 }
 
+.glitter-text {
+    animation: glitter 3s infinite;
+    display: inline-block;
+}
+
+@keyframes glitter {
+    0%, 100% {
+        color: #e0e0e0;
+        text-shadow: none;
+    }
+    25% {
+        color: #ffd700;
+        text-shadow: 0 0 5px #ffd700;
+    }
+    50% {
+        color: #ffac47;
+        text-shadow: 0 0 5px #ffac47;
+    }
+    75% {
+        color: #ff69b4;
+        text-shadow: 0 0 5px #ff69b4;
+    }
+}
+
 h1.main-title {
     font-family: 'Exo 2', sans-serif;
     font-size: 5rem;
